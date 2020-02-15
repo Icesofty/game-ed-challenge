@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/output.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Game Ed</title>
+  </head>
+  <body
+    class="flex justify-center items-center h-screen bg-gray-900 text-4xl text-gray-100 "
+  >
+    <section class="flex flex-col items-center justify-center text-center">
+      <h1 id="myScore">0</h1>
+
+      <p id="rememberIt" class="rememberclass flex unselectable"></p>
+      <input
+        type="text"
+        value=""
+        placeholder="I'm not a Robot"
+        id="result"
+        class="inputfield rounded hidden text-center text-gray-800"
+      />
+      <button
+        onclick="inputText()"
+        class="p-4 bg-orange-400 m-4
+    rounded font-bold"
+      >
+        CHECK
+      </button>
+    </section>
+  </body>
+  <script src="./app.js"></script>
+</html>
